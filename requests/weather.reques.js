@@ -22,7 +22,10 @@ module.exports = async function(city = '') {
         const data = await rp(options);
         const celsius = (data.main.temp - 32) * 5/9;
 
-
+        return {
+            weather: `${data.name}: ${celsius.toFixed(0)}`,
+            error: null
+         }
     } 
 
 
