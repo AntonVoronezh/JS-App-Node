@@ -20,3 +20,6 @@ app.post('/', async (rec, res) => {
     res.render('index', {weather, error});
 })
 
+app.listen(3000, () => {
+    console.log('Server has start on port 3000...');
+});

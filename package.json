@@ -1,0 +1,35 @@
+{
+  "name": "js-app-node",
+  "version": "1.0.0",
+  "description": "This is Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonVoronezh/JS-App-Node.git"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "AntonVoronezh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonVoronezh/JS-App-Node/issues"
+  },
+  "homepage": "https://github.com/AntonVoronezh/JS-App-Node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "firebase-admin": "^7.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
