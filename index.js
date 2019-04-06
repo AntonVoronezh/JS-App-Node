@@ -5,6 +5,7 @@ const weatherRequest = require('./requests/weather.reques');
 
 const app = express();
 
+app.set('view engine', 'ejs');
 
 
 
