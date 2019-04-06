@@ -13,4 +13,10 @@ app.get('/', (rec, res) => {
     res.render('index', {weather:null , error: null});
 })
 
+app.post('/', async (rec, res) => {
+    const {city} = rec.body;
+    const {weather, error} = await weatherRequest(city);
+    
+    res.render('index', {weather, error});
+})
 
