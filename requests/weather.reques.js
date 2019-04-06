@@ -8,6 +8,9 @@ module.exports = async function(city = '') {
     const KEY = '8b1490fe716dc2558509f4e401f2b1cf';
     const uri = 'http://api.openweathermap.org/data/2.5/weather';
 
+    const options = {
+        uri,
+    }
 
 
 
