@@ -20,6 +20,7 @@ module.exports = async function(city = '') {
 
     try {
         const data = await rp(options);
+        const celsius = (data.main.temp - 32) * 5/9;
 
 
     } 
