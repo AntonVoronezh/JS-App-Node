@@ -9,5 +9,8 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
 
+app.get('/', (rec, res) => {
+    res.render('index', {weather:null , error: null});
+})
 
 
