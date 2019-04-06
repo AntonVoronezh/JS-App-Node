@@ -15,6 +15,7 @@ module.exports = async function(city = '') {
             q: city,
             units: 'imperial'
         },
+        json: true
     }
 
 
