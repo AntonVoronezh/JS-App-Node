@@ -10,6 +10,11 @@ module.exports = async function(city = '') {
 
     const options = {
         uri,
+        qs: {
+            appid: KEY,
+            q: city,
+            units: 'imperial'
+        },
     }
 
 
