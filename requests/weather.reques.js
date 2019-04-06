@@ -5,6 +5,7 @@ module.exports = async function(city = '') {
         throw new Error('Имя города не может быть пустым');
     }
 
+    const KEY = '8b1490fe716dc2558509f4e401f2b1cf';
 
 
 
