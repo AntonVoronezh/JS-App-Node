@@ -18,6 +18,11 @@ module.exports = async function(city = '') {
         json: true
     }
 
+    try {
+        const data = await rp(options);
+
+
+    } 
 
 
     
